@@ -1,0 +1,19 @@
+This is the list of useful commands for Computer Science:
+
+First Command: 
+git clone --config="http.proxy=http://isaiah1782:christinawood@192.168.2.1:8080" https://github.com/isaiah1782-cmis/isaiah1782-cmis-wd.git
+
+Other useful commands:
+
+(Press Tab to complete words for files etc.)
+ls
+ls isaiah1782-cmis-wd/
+cd
+cd isaiah1782-cmis-wd/
+cd ~
+cd ..
+gedit (filename) &
+gedit (make up filename) & 
+git add (filename)
+git commit -m "(Commit message)"
+git push
