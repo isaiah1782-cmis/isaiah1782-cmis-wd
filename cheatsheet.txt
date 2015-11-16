@@ -40,7 +40,8 @@ git push
 
 sftp Commands:
 
-sftp username@cmis-hsteacher 
+sftp username@cmis-hsteacher
+cd public_html/
 ls - same as terminal
 cd - same as terminal
 prepend a command with ! to execute it on local
