@@ -18,6 +18,21 @@ git add (filename)
 git commit -m "(Commit message)"
 git push
 
+public_html:
+Website: http://cmis-hsteacher/~(Username)
+How to get to a file: http://cmis-hsteacher/~(Username)/L+L
+Get to other folder/file: http://cmis-hsteacher/~(Username)/L+L/other.html
+
+user-cmis-wd:
+-Open python -m SimpleHTTPServer
+-go to localhost:8000
+
+Make a directery/folder:
+mkdir <foldername>
+
+Remove a directery/folder (Has to be empty):
+rmdir <foldername>
+
 OVERALL COMMANDS:
 
 Terminal Commands:
@@ -47,6 +62,5 @@ cd - same as terminal
 prepend a command with ! to execute it on local
 put <filename> - upload a file
 get <filename> - download a file
-
-Website:
-localhost:8000
+exit - exits sftp
+! - exits sftp
