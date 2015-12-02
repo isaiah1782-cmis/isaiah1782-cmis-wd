@@ -21,7 +21,7 @@ git push
 public_html:
 Website: http://cmis-hsteacher/~(Username)
 How to get to a file: http://cmis-hsteacher/~(Username)/L+L
-Get to other folder/file: http://cmis-hsteacher/~(Username)/L+L/other.html
+Get to other folder/file: http://cmis-hsgit clone --config="http.proxy=http://isaiah1782:christinawood@192.168.2.1:8080" https://github.com/isaiah1782-cmis/isaiah1782-cmis-wd.gitteacher/~(Username)/L+L/other.html
 
 user-cmis-wd:
 -Open python -m SimpleHTTPServer

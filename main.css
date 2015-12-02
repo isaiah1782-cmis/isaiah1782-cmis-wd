@@ -11,3 +11,17 @@ p {
     font-family: "Times New Roman";
     font-size: 20px;
 }
+
+createMouseTrail(
+  0   , //number of trails (0 will make one trail for each letter or array entry) try not to make
+        //more than about 7-8 trails unless using fixed speed where upto thirty can be used
+  50, //speed of trails - 50-75 is about right - higher numbers are slower. You may want to use 25 for fixed speed
+  'Welcome to my Website!', //contents of each trail
+20, //x offset from mouse
+2, //y offset from mouse
+17, //x offset between trails
+0, //y offset between trails
+0, //elasticity (0 is none, 0.6 is about max - after that they start to jitter)
+True, //fixed speed - elasticity will be ignored - all trails will move as fast as each other
+  'font-weight:bold;' //stylesheet for trails
+);
